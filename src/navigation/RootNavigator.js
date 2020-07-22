@@ -1,5 +1,5 @@
 import {createSwitchNavigator, createAppContainer} from 'react-navigation';
-import AppDrawerNavigator from './app-drawer-navigator';
+import AppDrawerNavigator from './AppDrawerNavigator';
 
 const RootNavigator = createAppContainer(
   createSwitchNavigator(

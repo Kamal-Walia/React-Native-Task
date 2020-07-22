@@ -75,7 +75,6 @@ class Sidebar extends React.Component {
           showsVerticalScrollIndicator={false}>
           <View style={styles.menuItems}>
             <View>
-              <View>
                 {sidebarItems.map((item, index) => {
                   return (
                     <MenuItem
@@ -87,7 +86,6 @@ class Sidebar extends React.Component {
                 })}
               </View>
             </View>
-          </View>
         </ScrollView>
       </SafeAreaView>
     );

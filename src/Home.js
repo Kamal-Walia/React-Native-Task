@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, FlatList, SafeAreaView} from 'react-native';
-import Header from './components/header';
+import Header from './components/Header';
 import ImageCarousel from './components/ImageCarousel';
 import CircleImageCarousel from './components/CircleImageCarousel';
 import FeedCard from './components/FeedCard';

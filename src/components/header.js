@@ -6,7 +6,7 @@ const Header = (props) => {
   return (
     <View style={styles.header}>
       <View style={styles.searchContainer}>
-        <TouchableOpacity onPress={() => props.navigation.openDrawer()}>
+        <TouchableOpacity onPress={props.navigation.openDrawer}>
           <Image
             source={require('../assets/images/menu.png')}
             style={styles.menu}
